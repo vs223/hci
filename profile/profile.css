@@ -1,0 +1,30 @@
+body {
+  position: relative;
+
+}
+footer{
+  color:white;
+  background-color: #5E5E5E;
+}
+.section{
+  padding-top:50px;
+  height:500px;
+  color: #fff; 
+}
+
+.image{
+  height: 300px;
+}
+
+#profile_sec {
+  background-color: #1E88E5;
+}
+#career_sec {
+  background-color: #673ab7;
+}
+#ex_sec {
+  background-color: #ff9800;
+}
+#semester9 {
+  background-color: #00bcd4;
+}
