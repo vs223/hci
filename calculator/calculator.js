@@ -4,7 +4,7 @@ function calculate(op, arg1, arg2){
 		return arg1-arg2;
 		case '+':
 		return arg1+arg2;
-		case '-*':
+		case '*':
 		return arg1*arg2;
 		case '/':
 		return arg1/arg2;
