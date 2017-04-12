@@ -3,6 +3,7 @@
 <head>
 	<title>hello world!</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+	<link href="calculator.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 	<div>
@@ -14,7 +15,7 @@
 		</ul>
 	</div>
 
-	<div id="calculator" class="container">
+	<div id="calculator" class="container well">
 		<h1>Calculator</h1>
 		<div  >
 			<input id="display" name="display"/>			
@@ -42,9 +43,48 @@
 			<button >0</button>
 			<button >=</button>
 			<button >/</button>
-		</div>
+		</div>		
+	</div>
 
-		
+	<div id="calForVendors" class="container well" >
+		<table class="table table-responsive">
+			<tbody>
+				<tr>
+					<td colspan="5">
+						<input class="display" type="text" name="display">
+					</td>
+				</tr>
+				<tr>
+					<td><button>7</button></td>
+					<td><button>8</button></td>
+					<td><button>9</button></td>
+					<td><button>C</button></td>
+					<td class="double-height" rowspan="2"><button >+</button></td>
+				</tr>
+				<tr>
+					<td><button>4</button></td>
+					<td><button>5</button></td>
+					<td><button>6</button></td>					
+					<td><button>Back</button></td>
+					
+					
+				</tr>
+				<tr>
+					<td><button>1</button></td>
+					<td><button>2</button></td>
+					<td><button>3</button></td>
+					<td class="double-height" rowspan="2"><button>0</button></td>
+					<td class="double-height" rowspan="2"><button >=</button></td>					
+				</tr>
+				<tr>
+					
+					<td><button>00</button></td>
+					<td><button>000</button></td>
+					<td><button>0000</button></td>				
+				</tr>
+				
+			</tbody>
+		</table>
 	</div>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
