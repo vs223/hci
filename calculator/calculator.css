@@ -1,0 +1,8 @@
+.double-height > button {
+	height: 85px
+}
+
+.calculator {
+    float: none;
+    margin: 0 auto;
+}
